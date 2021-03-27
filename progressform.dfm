@@ -1,0 +1,29 @@
+object Progress_form: TProgress_form
+  Left = 0
+  Top = 0
+  AutoSize = True
+  BorderIcons = []
+  BorderWidth = 5
+  ClientHeight = 17
+  ClientWidth = 285
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsStayOnTop
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object ProgressBar1: TProgressBar
+    Left = 0
+    Top = 0
+    Width = 285
+    Height = 17
+    Position = 50
+    Smooth = True
+    TabOrder = 0
+  end
+end
