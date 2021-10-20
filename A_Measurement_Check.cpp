@@ -12,6 +12,8 @@
 
 #include "progressform.h"
 
+#include "MainForm.h"
+
 
 int z,hand,units_type;
 
@@ -105,6 +107,11 @@ approachdist=0.25;
 
 
 
+ delete(Equator_Helical_Graphics_Check_form);
+
+ delete(Form1);
+
+ delete(Progress_form);
 
 
   *stemdia_=stemdia;

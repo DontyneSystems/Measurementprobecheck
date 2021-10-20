@@ -27,7 +27,7 @@
 
 #pragma resource "*.dfm"
 
-FILE *diagnosticfile;
+//FILE *diagnosticfile;
 //int diagnoistics=0;
 
 
@@ -2262,7 +2262,7 @@ int meas_samp_bottom,meas_samp_top,meas_samp_middle;
 
 
 
-	diagnosticfile=fopen("interferelog.txt","w");
+   //	diagnosticfile=fopen("interferelog.txt","w");
 
 
 
@@ -3308,7 +3308,7 @@ if(detectclash==1)
 
 	OpenGLAPPanelPaint(Equator_Helical_Graphics_Check_form);
 
-	fclose(diagnosticfile);
+   //	fclose(diagnosticfile);
 
 
     detectclash=0;
